@@ -1,0 +1,73 @@
+#homeMain
+{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	font-family: 'Poppins', sans-serif;
+}
+#locationBar 
+{
+	z-index:100;
+	top: 0;
+	width: 100%;
+	position: fixed;
+	padding: 15px 15px;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	overflow: hidden;
+	box-shadow: 10px 10px 10px 5px grey;
+}
+ui
+{
+	float: right;
+	margin-right: 5%;
+}
+#images
+{
+	margin-top: 6%;
+	width: 100%;
+}
+#categories
+{
+	width: 100%;
+	height: 350px;
+	margin-top: 5%;
+}
+#grocery
+{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#pharma
+{
+	width: 25%;;
+	float: right;
+	text-align: center;
+}
+#dairy
+{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+#food
+{
+	width: 25%;
+	float: right;
+	text-align: center;
+}
+#footerP
+{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+}
+.btn
+{
+	border-radius: 100px;
+	padding: 10px 30px;
+	background-color: #FF4F00;
+	color: white;
+}
